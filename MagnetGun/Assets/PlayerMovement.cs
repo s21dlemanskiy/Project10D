@@ -33,6 +33,7 @@ public class PlayerMovement : MonoBehaviour {
 				//Debug.Log (p.point.y + "|" + GetComponent<Collider2D> ().bounds.min.y);
 				if (Mathf.Abs(p.point.y - GetComponent<Collider> ().bounds.min.y) < 0.05) {
 					col.Add (coll.collider);
+					break;
 					//Debug.Log ("added" + p.collider.gameObject.name);
 				}
 			}

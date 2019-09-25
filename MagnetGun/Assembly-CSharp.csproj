@@ -52,10 +52,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\CursorScript.cs" />
+     <Compile Include="Assets\MetalPiecesList.cs" />
      <Compile Include="Assets\PlayerMovement.cs" />
      <Compile Include="Assets\Pull.cs" />
      <Compile Include="Assets\Push.cs" />
      <Compile Include="Assets\Push3.cs" />
+     <Compile Include="Assets\Singleton.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
