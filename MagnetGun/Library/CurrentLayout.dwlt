@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 4097
+  controlID: 9130
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 421}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 4392
+  controlID: 9353
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 4346
+  controlID: 9406
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -389,14 +389,14 @@ MonoBehaviour:
     height: 445
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 1708.3071441999998
+  lastFramingTime: 2089.1411273999997
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 1, z: 0}
+    m_Target: {x: 1.3264761, y: 1.5871708, z: 1.5030903}
     speed: 2
-    m_Value: {x: 0, y: 1, z: 0}
+    m_Value: {x: 1.3264761, y: 1.5871708, z: 1.5030903}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -420,19 +420,19 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.16473623, y: 0.44933838, z: -0.08469867, w: 0.8739469}
+    m_Target: {x: -0.15664732, y: 0.5853903, z: -0.116533406, w: -0.7868925}
     speed: 2
-    m_Value: {x: 0.16473623, y: 0.44933835, z: -0.08469867, w: 0.8739469}
+    m_Value: {x: -0.15664732, y: 0.5853903, z: -0.116533406, w: -0.7868925}
   m_Size:
-    m_Target: 4.0416584
+    m_Target: 23.046848
     speed: 2
-    m_Value: 4.0416584
+    m_Value: 23.046848
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: -0.7071068, y: 0, z: 0, w: -0.7071068}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -467,9 +467,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a85fffff
-    m_LastClickedID: -41048
-    m_ExpandedIDs: a85fffffeef8ffff9efbffff0000000056280000
+    m_SelectedIDs: ae4dfcff
+    m_LastClickedID: -242258
+    m_ExpandedIDs: 2eb0fbff464afcffae4dfcff6ab0feff500cffff1c7effff6af7ffff9efbffff000000009a290000b4290000da290000f2290000ca390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -535,14 +535,13 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "C:\\Users\\georg\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439
-    \u0441\u0442\u043E\u043B\\MagnetGun"
+  m_LastProjectPath: C:\Users\georg\OneDrive\Documents\GitHub\Project10D\MagnetGun
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: ee240000
     m_LastClickedID: 9454
-    m_ExpandedIDs: 000000007c270000
+    m_ExpandedIDs: 00000000842700001c280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -567,10 +566,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 46}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007c270000
+    m_ExpandedIDs: 00000000842700001c280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -652,7 +651,7 @@ MonoBehaviour:
     width: 550
     height: 926
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ScrollPosition: {x: 0, y: 60}
+  m_ScrollPosition: {x: 0, y: 140.95508}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: -160
