@@ -23,6 +23,12 @@ public class PlayerMovement : MonoBehaviour {
 			gameObject.GetComponent<Rigidbody>().velocity = (Vector3.up * jumpForce);
 			Debug.Log (gameObject.GetComponent<Rigidbody> ().velocity.y);
 		}
+		transform.Translate (new Vector3(Input.GetAxis("Horizontal"), 0f,Input.GetAxis("Vertical")) * Time.deltaTime * speed);
+		rotY += Input.GetAxis("Mouse X") * Time.deltaTime * sensitivity;
+		rotX -= Input.GetAxis("Mouse Y") * Time.deltaTime * sensitivity;
+		rotX = Mathf.Clamp(rotX, -clampAngle, clampAngle);
+		cam.transform.localRotation = Quaternion.Euler(rotX, 0f , 0.0f);
+		transform.rotation = Quaternion.Euler(0f, rotY , 0.0f);
 	}
 	void OnCollisionStay(Collision coll)
 	{
@@ -48,15 +54,5 @@ public class PlayerMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		
-	}
-
-	// Update is called once per frame
-	void Update () {
-		transform.Translate (new Vector3(Input.GetAxis("Horizontal"), 0f,Input.GetAxis("Vertical")) * Time.deltaTime * speed);
-		rotY += Input.GetAxis("Mouse X") * Time.deltaTime * sensitivity;
-		rotX -= Input.GetAxis("Mouse Y") * Time.deltaTime * sensitivity;
-		rotX = Mathf.Clamp(rotX, -clampAngle, clampAngle);
-		cam.transform.localRotation = Quaternion.Euler(rotX, 0f , 0.0f);
-		transform.rotation = Quaternion.Euler(0f, rotY , 0.0f);
 	}
 }
