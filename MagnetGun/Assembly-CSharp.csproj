@@ -51,13 +51,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CursorScript.cs" />
      <Compile Include="Assets\MetalPiecesList.cs" />
-     <Compile Include="Assets\PlayerMovement.cs" />
-     <Compile Include="Assets\Pull.cs" />
-     <Compile Include="Assets\Push.cs" />
-     <Compile Include="Assets\Push3.cs" />
-     <Compile Include="Assets\Singleton.cs" />
+     <Compile Include="Assets\Scripts\CursorScript.cs" />
+     <Compile Include="Assets\Scripts\Logic\Door_logic.cs" />
+     <Compile Include="Assets\Scripts\Logic\Element_Logic.cs" />
+     <Compile Include="Assets\Scripts\Logic\TriggerScript_Logic.cs" />
+     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Pull.cs" />
+     <Compile Include="Assets\Scripts\Push.cs" />
+     <Compile Include="Assets\Scripts\Push3.cs" />
+     <Compile Include="Assets\Scripts\Singleton.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
