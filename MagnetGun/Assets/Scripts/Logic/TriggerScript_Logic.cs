@@ -17,10 +17,14 @@ public class TriggerScript_Logic : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other)
 	{
-		cols.Add(other);
+		if (other.gameObject.tag == "Player") {
+			cols.Add (other);
+		}
 	}
 	void OnTriggerExit(Collider other)
 	{
-		cols.Remove(other);
+		if (other.gameObject.tag == "Player") {
+			cols.Remove (other);
+		}
 	}
 }
