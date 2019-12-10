@@ -12,7 +12,7 @@ public class TriggerScript_Logic : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		logic.value = cols.Count > 0;
+			logic.value = cols.Count > 0;
 	}
 
 	void OnTriggerEnter(Collider other)

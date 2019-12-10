@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Metal
   - Button
+  - Lift
   layers:
   - Default
   - TransparentFX

@@ -51,13 +51,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\MetalPiecesList.cs" />
      <Compile Include="Assets\Scripts\CursorScript.cs" />
+     <Compile Include="Assets\Scripts\Logic\And_Logic.cs" />
      <Compile Include="Assets\Scripts\Logic\ButtonScript_Logic.cs" />
      <Compile Include="Assets\Scripts\Logic\Door_logic.cs" />
      <Compile Include="Assets\Scripts\Logic\Element_Logic.cs" />
      <Compile Include="Assets\Scripts\Logic\Lift_logic.cs" />
+     <Compile Include="Assets\Scripts\Logic\LiftTrigger_Logic.cs" />
      <Compile Include="Assets\Scripts\Logic\TriggerScript_Logic.cs" />
+     <Compile Include="Assets\Scripts\MetalPiecesList.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Pull.cs" />
      <Compile Include="Assets\Scripts\Push.cs" />

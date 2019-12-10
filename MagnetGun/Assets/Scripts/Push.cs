@@ -19,7 +19,7 @@ public class Push : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 		minD = Mathf.Abs((Camera.main.WorldToScreenPoint (minObj.transform.position) - new Vector3(Camera.main.pixelWidth / 2, Camera.main.pixelHeight / 2)).magnitude);
-		Debug.Log (minD);
+		//Debug.Log (minD);
 		foreach (GameObject piece in pieces) {
 			len = Mathf.Abs((Camera.main.WorldToScreenPoint (piece.transform.position) - new Vector3(Camera.main.pixelWidth / 2, Camera.main.pixelHeight / 2)).magnitude);
 			if(len < minD){

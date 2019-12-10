@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Lift_logic : MonoBehaviour {
 	public Element_Logic logic;
+	public Element_Logic logicOut;
 	public float speed;
 	public float top;
 	public float bottom;
+	public float doorsOpenHeight;
 	public float dTime;
 	// Use this for initialization
 	void Start () {
@@ -26,6 +28,8 @@ public class Lift_logic : MonoBehaviour {
 					transform.Translate (Vector3.up * -speed);
 				}
 			}
+			Debug.Log (transform.localPosition.y);
+			logicOut.value = doorsOpenHeight < transform.localPosition.y;
 			yield return new WaitForSeconds (dTime);
 		}
 	}
