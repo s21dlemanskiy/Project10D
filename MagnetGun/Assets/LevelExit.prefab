@@ -2891,6 +2891,7 @@ GameObject:
   - component: {fileID: 4431162261733744}
   - component: {fileID: 114665180561554574}
   - component: {fileID: 114493049667105454}
+  - component: {fileID: 54044643556476640}
   m_Layer: 0
   m_Name: Lift
   m_TagString: Button
@@ -20747,7 +20748,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 603f22744cb1f1f4191ddc325f998712, type: 2}
+  - {fileID: 2100000, guid: d2a54edc5538a79458affd19d1c598be, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23705,7 +23706,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 603f22744cb1f1f4191ddc325f998712, type: 2}
+  - {fileID: 2100000, guid: d2a54edc5538a79458affd19d1c598be, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24181,7 +24182,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 855da0beabc97df418ad8a93d4c35907, type: 2}
+  - {fileID: 2100000, guid: 5f6f24744722de04e867a11bf2f86c94, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -27751,7 +27752,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 855da0beabc97df418ad8a93d4c35907, type: 2}
+  - {fileID: 2100000, guid: 5f6f24744722de04e867a11bf2f86c94, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -31138,6 +31139,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1364052092189974}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &54044643556476640
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1346082474055570}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!64 &64007178306958180
 MeshCollider:
   m_ObjectHideFlags: 1

@@ -10,6 +10,8 @@ public class Lift_logic : MonoBehaviour {
 	public float bottom;
 	public float doorsOpenHeight;
 	public float dTime;
+	public Transform player;
+	public Element_Logic playerIn;
 	// Use this for initialization
 	void Start () {
 		StartCoroutine (Move());
@@ -21,11 +23,14 @@ public class Lift_logic : MonoBehaviour {
 		while (true) {
 			if (logic.value) {
 				if (top > transform.localPosition.y) {
-					transform.Translate (Vector3.up * speed);
+					transform.Translate (Vector3.up * speed * Time.deltaTime);
 				}
 			} else {
-				if (transform.position.y > bottom) {
-					transform.Translate (Vector3.up * -speed);
+				if ((transform.position.y > bottom) || playerIn.value) {
+					transform.Translate (Vector3.up * -speed * Time.deltaTime);
+					if (playerIn.value) {
+						player.Translate (Vector3.up * -speed * Time.deltaTime);
+					}
 				}
 			}
 			Debug.Log (transform.localPosition.y);
