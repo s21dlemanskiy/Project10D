@@ -5,13 +5,13 @@
       <File FileName="Assets\Scripts\Logic\LiftTrigger_Logic.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Logic\TriggerScript_Logic.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Logic\And_Logic.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Logic\Lift_logic.cs" Line="29" Column="43" />
+      <File FileName="Assets\Scripts\Logic\Lift_logic.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Push.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Pull.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Push3.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Logic\Element_Logic.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Logic\Door_logic.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Logic\NewLevel_Logic.cs" Line="16" Column="56" />
+      <File FileName="Assets\Scripts\Logic\NewLevel_Logic.cs" Line="14" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
